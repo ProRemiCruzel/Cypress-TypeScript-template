@@ -1,0 +1,10 @@
+{
+  "json": {
+    "enabled": true,
+    "output": "cypress/cucumber/cucumber-report.json"
+  },
+  "pretty": {
+    "enabled": true
+  },
+  "stepDefinitions": ["cypress/cucumber/**/*.steps.ts", "cypress/cucumber/**/*.hooks.ts"]
+}

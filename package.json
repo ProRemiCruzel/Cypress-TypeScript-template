@@ -1,0 +1,45 @@
+{
+  "name": "cypress-typescript-template",
+  "version": "1.0.0",
+  "description": "A simple template for setting up Cypress with TypeScript, providing a solid foundation for automated testing with a clean and optimized structure. Perfect for rapid test automation setups.",
+  "main": "index.js",
+  "scripts": {
+    "switch-env": "node ./script/index.js switch-env",
+    "cypress:open": "cypress open --e2e --browser chrome",
+    "cypress:run": "cypress run --browser chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ProRemiCruzel/Cypress-TypeScript-template"
+  },
+  "keywords": [
+    "Cypress",
+    "TypeScript",
+    "Template",
+    "CleanCode"
+  ],
+  "author": "Rémi Cruzel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ProRemiCruzel/Cypress-TypeScript-template/issues"
+  },
+  "homepage": "https://github.com/ProRemiCruzel/Cypress-TypeScript-template#readme",
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.5",
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.3",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "@faker-js/faker": "^8.4.1",
+    "@typescript-eslint/eslint-plugin": "^7.13.0",
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "cypress": "^13.16.0",
+    "dotenv": "^16.4.5",
+    "envfile": "^7.1.0",
+    "eslint": "^8.0.0",
+    "eslint-plugin-cypress": "^3.3.0",
+    "globals": "^15.4.0",
+    "prettier": "^3.3.2",
+    "prompts": "^2.4.2",
+    "typescript": "^5.4.5"
+  }
+}

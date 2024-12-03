@@ -113,8 +113,16 @@ dist
 # FuseBox cache
 .fusebox/
 
+# Cucumber
+cucumber-report.json
+
+# Cypress
+screenshots/
+downloads/
+
 # IDE
 .idea
+.run
 
 # DynamoDB Local files
 .dynamodb/
